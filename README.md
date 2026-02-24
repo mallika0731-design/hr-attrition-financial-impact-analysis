@@ -101,7 +101,10 @@ This analysis demonstrates how workforce data can be transformed into:
 
 ## 📷 Visual Summary
 
-<img src="outputs/HR Attrition EDA Dashboard 1.png" width="600"/>
-<img src="outputs/HR Attrition EDA Dashboard 2.png" width="600"/>
-<img src="outputs/HR Attrition EDA Output 1.png" width="600"/>
-<img src="outputs/HR Attrition EDA Output 2.png" width="600"/>
+## 📷 Visual Summary
+
+![Dashboard 1](HR%20Attrition%20EDA%20Dashboard%201.png)
+![Dashboard 2](HR%20Attrition%20EDA%20Dashboard%202.png)
+
+![Output 1](HR%20Attrition%20EDA%20output%201.png)
+![Output 2](HR%20Attrition%20EDA%20Output%202.png)
