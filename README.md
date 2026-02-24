@@ -99,8 +99,9 @@ This analysis demonstrates how workforce data can be transformed into:
 - Seaborn  
 - Plotly
 
-  ## Visual Summary
+## 📷 Visual Summary
 
-![Dashboard Snapshot](outputs/HR_Attrition_EDA_Dashboard_1.png)
-![KPI Summary](outputs/HR_Attrition_EDA_Output_1.png)
-
+<img src="outputs/HR Attrition EDA Dashboard 1.png" width="600"/>
+<img src="outputs/HR Attrition EDA Dashboard 2.png" width="600"/>
+<img src="outputs/HR Attrition EDA Output 1.png" width="600"/>
+<img src="outputs/HR Attrition EDA Output 2.png" width="600"/>
