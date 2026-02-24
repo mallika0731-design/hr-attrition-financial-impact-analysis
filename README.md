@@ -97,5 +97,10 @@ This analysis demonstrates how workforce data can be transformed into:
 - NumPy  
 - Matplotlib  
 - Seaborn  
-- Plotly  
+- Plotly
+
+  ## Visual Summary
+
+![Dashboard Snapshot](outputs/HR_Attrition_EDA_Dashboard_1.png)
+![KPI Summary](outputs/HR_Attrition_EDA_Output_1.png)
 
