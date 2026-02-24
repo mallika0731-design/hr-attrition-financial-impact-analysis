@@ -1,119 +1,101 @@
-Workforce Attrition Risk & Financial Impact Analysis
-Project Summary
+# Workforce Attrition Risk & Financial Impact Analysis
+
+## Project Summary
 
 This project performs a structured workforce analytics study on the IBM HR dataset to quantify employee attrition risk, identify key turnover drivers, and estimate the financial exposure associated with employee churn.
 
 The analysis emphasizes KPI development, relative risk benchmarking, and business impact modeling using Python-based exploratory and statistical techniques.
 
-Business Objective
+---
+
+## Business Objective
 
 Employee attrition leads to:
 
-Increased recruitment and onboarding costs
-
-Loss of productivity and institutional knowledge
-
-Operational instability
+- Increased recruitment and onboarding costs  
+- Loss of productivity and institutional knowledge  
+- Operational instability  
 
 The objective of this project is to:
 
-Measure and benchmark attrition risk across employee segments
+- Measure and benchmark attrition risk across employee segments  
+- Identify structural drivers of turnover  
+- Quantify financial exposure due to attrition  
+- Simulate potential cost-reduction interventions  
 
-Identify structural drivers of turnover
+---
 
-Quantify financial exposure due to attrition
+## Dataset
 
-Simulate potential cost-reduction interventions
+**IBM HR Analytics – Employee Attrition Dataset**
 
-Dataset
+- ~1,470 employee records  
+- ~35 features including demographics, job info, compensation, tenure, performance, and satisfaction variables  
 
-IBM HR Analytics – Employee Attrition Dataset
+---
 
-1,470 employee records
+## Methodology
 
-35 features including demographic, compensation, tenure, performance, and satisfaction variables
+### 1. Data Preparation
+- Cleaned and preprocessed the dataset  
+- Converted the attrition variable to a binary format  
+- Engineered tenure bands, salary bands, and age groups  
+- Handled categorical segmentation for risk profiling  
 
-Methodology
-1. Data Preparation
+### 2. KPI & Risk Modeling
+- Calculated overall attrition rate  
+- Computed attrition rates by department, tenure, and other segments  
+- Developed relative risk scores (segment attrition ÷ overall attrition)  
+- Calculated overtime risk multipliers  
+- Visualized attrition behavior by key business segments  
 
-Converted attrition variable to binary format
+### 3. Financial Impact Estimation
+- Estimated replacement and churn costs using salary-based assumptions  
+- Calculated annual attrition cost exposure  
+- Modeled potential cost reduction from targeted interventions  
 
-Engineered tenure, salary, and age bands
+### 4. Visualization & Reporting
+- Built an interactive executive dashboard using Plotly  
+- Created KPI summaries and trend visualizations  
+- Designed charts for relative risk and attrition segmentation  
 
-Performed categorical segmentation for risk profiling
+---
 
-2. KPI & Risk Modeling
+## Key Analytical Findings
 
-Overall attrition rate calculation
+- Employees working overtime show ~2× higher attrition risk compared to baseline  
+- A tenure “cliff” effect is observed within the first 2 years of service  
+- Department-level benchmarking identifies areas with elevated turnover  
+- Lower job satisfaction correlates with higher attrition probability  
+- Attrition carries significant financial exposure under replacement cost modeling  
 
-Department-level attrition benchmarking
+---
 
-Relative Risk Score (segment attrition ÷ overall attrition)
-
-Overtime Risk Multiplier
-
-Tenure-based attrition segmentation
-
-3. Financial Impact Estimation
-
-Estimated replacement cost using salary-based assumption
-
-Computed annual attrition cost exposure
-
-Modeled cost-reduction scenarios based on targeted interventions
-
-4. Visualization & Reporting
-
-Interactive executive dashboard (Plotly)
-
-KPI summary visualizations
-
-Department risk heatmaps
-
-Attrition trend segmentation charts
-
-Key Analytical Findings
-
-Overtime employees exhibit ~2x higher attrition risk relative to baseline
-
-A tenure cliff effect is observed within the first 2 years
-
-Department-level risk benchmarking identifies structural turnover concentration
-
-Job satisfaction levels show inverse correlation with attrition probability
-
-Attrition represents significant annual financial exposure under salary-based replacement modeling
-
-Technical Stack
-
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Plotly
-
-Business Value
+## Business Value
 
 This analysis demonstrates how workforce data can be transformed into:
 
-Quantified attrition risk indicators
+- Quantified attrition risk indicators  
+- Financial impact estimates  
+- Data-driven HR strategy recommendations  
+- Structured decision-support insights  
 
-Financial impact estimates
+---
 
-Data-driven HR strategy recommendations
+## Future Scope
 
-Structured decision-support insights
+- Multivariate risk interaction analysis  
+- Predictive attrition modeling using machine learning  
+- Automated HR decision-support dashboard  
 
-Future Scope
+---
 
-Multivariate risk interaction analysis
+## Tools Used
 
-Predictive attrition modeling
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Plotly  
 
-Automated HR decision-support dashboard
